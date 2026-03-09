@@ -7,40 +7,89 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      background: linear-gradient(135deg, #e8f0ff, #f9fbff);
       margin: 0;
       padding: 0;
       color: #333;
     }
+
     header {
-      background-color: #444;
+      background: linear-gradient(90deg, #2c3e50, #4ca1af);
       color: white;
       text-align: center;
-      padding: 30px;
+      padding: 40px;
     }
+
     header h1 {
       margin: 0;
+      font-size: 32px;
     }
+
     section {
-      padding: 20px;
-      margin: 20px;
+      padding: 25px;
+      margin: 25px auto;
+      max-width: 1000px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
     }
-    footer {
-      background-color: #444;
-      color: white;
-      text-align: center;
-      padding: 15px;
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 3px solid #4ca1af;
+      padding-bottom: 8px;
     }
+
+    h3 {
+      color: #3b556d;
+      margin-top: 20px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
     .timeline {
       list-style-type: none;
       padding: 0;
     }
+
     .timeline li {
+      padding: 15px;
+      margin: 12px 0;
+      background: #f7fbff;
+      border-left: 6px solid #4ca1af;
+      border-radius: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th {
+      background: #4ca1af;
+      color: white;
       padding: 10px;
-      margin: 10px 0;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+      background: #f2f9ff;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -52,118 +101,132 @@
 
   <section>
     <h2>AI and ML Timeline</h2>
-    <p>This timeline highlights the significant milestones in the **AI** and **ML** fields, demonstrating my understanding of AI/ML history and how these milestones impact modern technology.</p>
-    
+    <p>
+      This timeline highlights the significant milestones in AI and ML fields, demonstrating
+      my understanding of AI/ML history and how these milestones impact modern technology.
+    </p>
+
     <ul class="timeline">
-      <li><strong>1956</strong> - The term "Artificial Intelligence" was coined by John McCarthy during the **Dartmouth Conference**.</li>
-      <li><strong>1960s</strong> - **ELIZA**, one of the first chatbot programs, was created by Joseph Weizenbaum at MIT.</li>
-      <li><strong>1980s</strong> - **Backpropagation** became widely used for training neural networks.</li>
-      <li><strong>1997</strong> - IBM’s **Deep Blue** defeated chess champion Garry Kasparov, marking a major milestone in AI and game-playing algorithms.</li>
-      <li><strong>2006</strong> - The concept of **Deep Learning** became popular, leading to breakthroughs in AI/ML applications.</li>
-      <li><strong>2012</strong> - **AlexNet** revolutionized the field of computer vision by achieving remarkable results in the **ImageNet competition**.</li>
-      <li><strong>2019</strong> - OpenAI's **GPT-2** model showcased significant advancements in natural language processing.</li>
-      <li><strong>2020</strong> - **GPT-3** (the model behind tools like ChatGPT) was released, showcasing massive improvements in language generation and understanding.</li>
+      <li><strong>1956</strong> - The term "Artificial Intelligence" was coined by John McCarthy during the Dartmouth Conference.</li>
+      <li><strong>1960s</strong> - ELIZA, one of the first chatbot programs, was created by Joseph Weizenbaum at MIT.</li>
+      <li><strong>1980s</strong> - Backpropagation became widely used for training neural networks.</li>
+      <li><strong>1997</strong> - IBM’s Deep Blue defeated chess champion Garry Kasparov, marking a major milestone in AI and game-playing algorithms.</li>
+      <li><strong>2006</strong> - The concept of Deep Learning became popular, leading to breakthroughs in AI/ML applications.</li>
+      <li><strong>2012</strong> - AlexNet revolutionized computer vision by achieving remarkable results in the ImageNet competition.</li>
+      <li><strong>2019</strong> - OpenAI's GPT-2 model showcased significant advancements in natural language processing.</li>
+      <li><strong>2020</strong> - GPT-3 was released, showcasing major improvements in language generation and understanding.</li>
     </ul>
   </section>
-<section>
-  <h2>Reflection on AI/ML Timeline</h2>
-  <p>This timeline highlights the significant milestones in **AI** and **ML**, demonstrating my understanding of **AI/ML history** and how these milestones impact modern technology. Through creating this artifact, I was able to deepen my understanding of the **evolution of AI** and its real-world applications. Reflecting on these milestones helped me identify areas I want to improve, particularly in terms of staying up-to-date with AI's current trends. I believe this artifact showcases my ability to understand AI/ML history, which is a core skill for any professional in this field. It also shows my **commitment to continuous learning**, which I believe is crucial for my career growth in AI/ML.</p>
-</section>
+
+  <section>
+    <h2>Reflection on AI/ML Timeline</h2>
+    <p>
+      This timeline highlights the significant milestones in AI and ML, demonstrating my
+      understanding of AI/ML history and how these milestones impact modern technology.
+      Through creating this artifact, I was able to deepen my understanding of the evolution
+      of AI and its real-world applications. Reflecting on these milestones helped me identify
+      areas I want to improve, particularly in staying up to date with current AI trends.
+      I believe this artifact showcases my ability to understand AI/ML history, which is a
+      core skill for any professional in this field. It also shows my commitment to continuous
+      learning, which I believe is crucial for my career growth in AI/ML.
+    </p>
+  </section>
+
+  <section>
+    <h2>Machine Learning Algorithm Types and Application Domains</h2>
+
+    <p>
+      This artifact presents a visual framework that categorizes common machine learning
+      algorithms based on their learning type and application domain. The goal of this
+      artifact is to demonstrate how different algorithms are used in real-world AI
+      applications such as tabular data analysis, computer vision, natural language
+      processing, and generative AI.
+    </p>
+
+    <h3>Visual Framework</h3>
+
+    <table>
+      <tr>
+        <th>Domain</th>
+        <th>Algorithm</th>
+        <th>Type</th>
+        <th>Example Application</th>
+      </tr>
+      <tr>
+        <td>Tabular Data</td>
+        <td>Decision Tree</td>
+        <td>Supervised</td>
+        <td>Loan approval prediction</td>
+      </tr>
+      <tr>
+        <td>Tabular Data</td>
+        <td>Random Forest</td>
+        <td>Supervised</td>
+        <td>Fraud detection</td>
+      </tr>
+      <tr>
+        <td>Tabular Data</td>
+        <td>Linear Regression</td>
+        <td>Supervised</td>
+        <td>House price prediction</td>
+      </tr>
+      <tr>
+        <td>Computer Vision</td>
+        <td>CNN</td>
+        <td>Supervised</td>
+        <td>Image recognition</td>
+      </tr>
+      <tr>
+        <td>Computer Vision</td>
+        <td>YOLO</td>
+        <td>Supervised</td>
+        <td>Object detection</td>
+      </tr>
+      <tr>
+        <td>Natural Language Processing</td>
+        <td>BERT</td>
+        <td>Supervised</td>
+        <td>Sentiment analysis</td>
+      </tr>
+      <tr>
+        <td>Natural Language Processing</td>
+        <td>Naive Bayes</td>
+        <td>Supervised</td>
+        <td>Spam detection</td>
+      </tr>
+      <tr>
+        <td>Generative AI</td>
+        <td>GPT</td>
+        <td>Generative Model</td>
+        <td>Chatbots</td>
+      </tr>
+      <tr>
+        <td>Generative AI</td>
+        <td>GAN</td>
+        <td>Generative / Unsupervised</td>
+        <td>Image generation</td>
+      </tr>
+      <tr>
+        <td>Generative AI</td>
+        <td>Diffusion Models</td>
+        <td>Generative Model</td>
+        <td>AI image generation</td>
+      </tr>
+    </table>
+
+    <h3>Artifact Information</h3>
+
+    <p><strong>Objective:</strong> To explore machine learning algorithm categories and understand their applications across different AI domains.</p>
+
+    <p><strong>Process:</strong> I researched common machine learning algorithms and categorized them based on their application domains and learning methods.</p>
+
+    <p><strong>Tools Used:</strong> GitHub Pages, HTML, and research resources.</p>
+
+    <p><strong>Value Proposition:</strong> This artifact demonstrates my understanding of machine learning algorithms and how they are applied across different artificial intelligence domains.</p>
+  </section>
 
   <footer>
     <p>&copy; 2025 Naveenpaul Kolli. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
-</section>
-
-<footer>
-
-  <section>
-  <h2>Machine Learning Algorithm Types and Application Domains</h2>
-
-  <p>This artifact presents a visual framework that categorizes common machine learning algorithms based on their learning type and application domain. The goal of this artifact is to demonstrate how different algorithms are used in real-world AI applications such as tabular data analysis, computer vision, natural language processing, and generative AI.</p>
-
-  <h3>Visual Framework</h3>
-
-  <table border="1" cellpadding="8" cellspacing="0">
-    <tr>
-      <th>Domain</th>
-      <th>Algorithm</th>
-      <th>Type</th>
-      <th>Example Application</th>
-    </tr>
-    <tr>
-      <td>Tabular Data</td>
-      <td>Decision Tree</td>
-      <td>Supervised</td>
-      <td>Loan approval prediction</td>
-    </tr>
-    <tr>
-      <td>Tabular Data</td>
-      <td>Random Forest</td>
-      <td>Supervised</td>
-      <td>Fraud detection</td>
-    </tr>
-    <tr>
-      <td>Tabular Data</td>
-      <td>Linear Regression</td>
-      <td>Supervised</td>
-      <td>House price prediction</td>
-    </tr>
-    <tr>
-      <td>Computer Vision</td>
-      <td>CNN</td>
-      <td>Supervised</td>
-      <td>Image recognition</td>
-    </tr>
-    <tr>
-      <td>Computer Vision</td>
-      <td>YOLO</td>
-      <td>Supervised</td>
-      <td>Object detection</td>
-    </tr>
-    <tr>
-      <td>Natural Language Processing</td>
-      <td>BERT</td>
-      <td>Supervised</td>
-      <td>Sentiment analysis</td>
-    </tr>
-    <tr>
-      <td>Natural Language Processing</td>
-      <td>Naive Bayes</td>
-      <td>Supervised</td>
-      <td>Spam detection</td>
-    </tr>
-    <tr>
-      <td>Generative AI</td>
-      <td>GPT</td>
-      <td>Generative Model</td>
-      <td>Chatbots</td>
-    </tr>
-    <tr>
-      <td>Generative AI</td>
-      <td>GAN</td>
-      <td>Generative / Unsupervised</td>
-      <td>Image generation</td>
-    </tr>
-    <tr>
-      <td>Generative AI</td>
-      <td>Diffusion Models</td>
-      <td>Generative Model</td>
-      <td>AI image generation</td>
-    </tr>
-  </table>
-
-  <h3>Artifact Information</h3>
-
-  <p><strong>Objective:</strong> To explore machine learning algorithm categories and understand their applications across different AI domains.</p>
-
-  <p><strong>Process:</strong> I researched common machine learning algorithms and categorized them based on their application domains and learning methods.</p>
-
-  <p><strong>Tools Used:</strong> GitHub Pages, HTML, and research resources.</p>
-
-  <p><strong>Value Proposition:</strong> This artifact demonstrates my understanding of machine learning algorithms and how they are applied across different artificial intelligence domains.</p>
-
-</section>
